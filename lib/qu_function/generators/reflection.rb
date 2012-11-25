@@ -1,6 +1,10 @@
 module QuFunction
   class Generators
     class Reflection < Core
+      def self.name
+        "Reflection Gate"
+      end
+
       attr_reader :number_of_terms
       def initialize(variables, opts = {:radix => 3})
         @variables = variables

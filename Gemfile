@@ -1,5 +1,6 @@
 source "http://rubygems.org"
 gem 'activemodel'
+gem 'activesupport'
 gem 'liquid'
 
 # Add dependencies to develop your gem here.

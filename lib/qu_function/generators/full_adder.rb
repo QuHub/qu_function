@@ -1,6 +1,10 @@
 module QuFunction
   class Generators
     class FullAdder < Core
+      def self.name
+        "Full Adder"
+      end
+
       attr_reader :number_of_terms
       def initialize(variables, opts = {:radix => 3})
         @variables = variables

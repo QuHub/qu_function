@@ -1,6 +1,10 @@
 module QuFunction
   class Generators
     class Counter1n < Core
+      def self.name
+        "Counter of Non Zero Literals"
+      end
+
       attr_reader :number_of_terms
       def initialize(variables, opts = {:radix => 3})
         @variables = variables

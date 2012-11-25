@@ -1,6 +1,10 @@
 module QuFunction
   class Generators
     class NumberGteVariable < Core
+      def self.name
+        "Number GTE Variable"
+      end
+
       attr_reader :number_of_terms, :number
       def initialize(variables, opts)
         @variables = variables

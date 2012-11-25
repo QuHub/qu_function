@@ -1,6 +1,10 @@
 module QuFunction
   class Generators
     class NumberGteConstant < Core
+      def self.name
+        "Number GTE Constant"
+      end
+
       attr_reader :number_of_terms, :constant
       def initialize(variables, opts)
         @variables = variables

@@ -1,3 +1,4 @@
+require 'ostruct'
 class MintermDefinition < OpenStruct
   attr_accessor :default
   def initialize(minterm_spec, default={})

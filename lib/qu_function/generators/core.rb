@@ -1,6 +1,14 @@
 module QuFunction
   class Generators
     class Core
+      def self.name
+        Raise 'Must Override in subclass'
+      end
+
+      def self.parameters
+        []
+      end
+
       attr_accessor :number_of_inputs, :number_of_outputs, :radix
       def initialize(number_of_inputs, *args)
         opts = args.extract_options!
