@@ -1,0 +1,85 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.2.9)
+      activesupport (= 3.2.9)
+      builder (~> 3.0.0)
+    activesupport (3.2.9)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    binding_of_caller (0.6.8)
+    builder (3.0.4)
+    coderay (1.0.8)
+    columnize (0.3.6)
+    debugger (1.1.4)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.3)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.5)
+    diff-lcs (1.1.3)
+    factory_girl (4.1.0)
+      activesupport (>= 3.0.0)
+    git (1.2.5)
+    i18n (0.6.1)
+    jeweler (1.8.4)
+      bundler (~> 1.0)
+      git (>= 1.2.5)
+      rake
+      rdoc
+    json (1.7.5)
+    liquid (2.4.1)
+    method_source (0.8.1)
+    multi_json (1.3.7)
+    nokogiri (1.5.5)
+    pry (0.9.10)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.3.1)
+    pry-debugger (0.2.0)
+      debugger (~> 1.1.3)
+      pry (~> 0.9.9)
+    pry-exception_explorer (0.2.3)
+      pry-stack_explorer (>= 0.4.6)
+    pry-highlight (0.0.1)
+      coderay
+      json
+      nokogiri
+      pry
+    pry-rails (0.2.2)
+      pry (>= 0.9.10)
+    pry-stack_explorer (0.4.7)
+      binding_of_caller (~> 0.6.8)
+    rake (10.0.2)
+    rdoc (3.12)
+      json (~> 1.4)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.0)
+    rspec-expectations (2.12.0)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.0)
+    slop (3.3.3)
+    watchr (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activemodel
+  bundler
+  factory_girl
+  jeweler
+  liquid
+  pry
+  pry-debugger
+  pry-exception_explorer
+  pry-highlight
+  pry-rails
+  pry-stack_explorer
+  rdoc
+  rspec
+  watchr
