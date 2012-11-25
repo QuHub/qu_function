@@ -41,6 +41,7 @@ Gem::Specification.new do |s|
     "lib/qu_function/transformers.rb",
     "lib/qu_function/transformers/bijector.rb",
     "lib/qu_function/version.rb",
+    "qu_function.gemspec",
     "test/helper.rb",
     "test/test_qu_function.rb"
   ]
