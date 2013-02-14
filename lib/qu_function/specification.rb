@@ -14,7 +14,7 @@ module QuFunction
 
     def parsed 
       to_base = lambda {|x| Digit.new(x, configuration.inputs.radix)}
-      spec = raw.split("\n").map{|x| x.split(" ")}
+      spec = raw.map{|x| x.split(" ")}
       inputs = spec.map(&:first).map(&to_base)
       outputs = spec.map(&:last).map(&to_base)
       return [inputs, outputs] 
