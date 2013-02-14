@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "qu_function"
-  s.version = "0.0.3"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Maher Hawash"]
-  s.date = "2012-11-25"
-  s.description = "A gem which generates quantum functions"
+  s.date = "2013-02-14"
+  s.description = "Multiple Valued Quantum Function Generator"
   s.email = "gmhawash@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -48,8 +48,8 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/guhub/qu_function"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
-  s.summary = "TODO: one-line summary of your gem"
+  s.rubygems_version = "1.8.25"
+  s.summary = "Quantum Function Generator"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

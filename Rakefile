@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "qu_function"
   gem.homepage = "http://github.com/guhub/qu_function"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Quantum Function Generator}
+  gem.description = %Q{Multiple Valued Quantum Function Generator}
   gem.email = "gmhawash@gmail.com"
   gem.authors = ["Maher Hawash"]
   # dependencies defined in Gemfile
